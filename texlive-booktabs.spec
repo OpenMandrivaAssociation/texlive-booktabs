@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/booktabs
+# catalog-date 2009-09-24 15:05:48 +0200
+# catalog-license gpl
+# catalog-version 1.61803
 Name:		texlive-booktabs
 Version:	1.61803
 Release:	1
@@ -47,6 +53,7 @@ compatibility.
 #- source
 %doc %{_texmfdistdir}/source/latex/booktabs/booktabs.dtx
 %doc %{_texmfdistdir}/source/latex/booktabs/booktabs.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -57,3 +64,5 @@ compatibility.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
