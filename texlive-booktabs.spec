@@ -53,3 +53,18 @@ compatibility.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 1.61803-2
++ Revision: 749837
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 1.61803-1
++ Revision: 717968
+- texlive-booktabs
+- texlive-booktabs
+- texlive-booktabs
+- texlive-booktabs
+- texlive-booktabs
+
