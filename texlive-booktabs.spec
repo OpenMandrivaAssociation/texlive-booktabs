@@ -6,7 +6,7 @@
 # catalog-version 1.61803
 Name:		texlive-booktabs
 Version:	1.61803
-Release:	2
+Release:	3
 Summary:	Publication quality tables in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs
