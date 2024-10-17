@@ -3,7 +3,7 @@ Version:	53402
 Release:	2
 Summary:	Publication quality tables in LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/booktabs
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/booktabs
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs.doc.r%{version}.tar.xz
