@@ -14,7 +14,6 @@ Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs.doc.r%{
 Source2:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/booktabs.source.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Requires(pre):	texlive-tlpkg
 Provides:	texlive(%{tl_name}) = %{tl_revision}
 
 %description
